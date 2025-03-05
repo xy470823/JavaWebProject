@@ -22,6 +22,8 @@ public class StringTest {
         }
     }
 
+
+
     public static List<Map<String, String>> extractKeyValuePairs(String input) {
         List<Map<String, String>> entries = new ArrayList<>();
         Pattern pattern = Pattern.compile("\\b(var|var_name)='([^']*)'");
@@ -43,4 +45,7 @@ public class StringTest {
 
         return entries;
     }
+
+
+
 }
